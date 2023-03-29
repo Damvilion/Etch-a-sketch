@@ -1,0 +1,19 @@
+body{
+    align-items: center;
+}
+
+#container{
+    height: 300px;
+    width: 500px;
+    border-color: black;
+    background-color: blue;
+}
+
+#box{
+    display: flex;
+    justify-content: center;
+}
+
+.item:hover{
+    background-color: black;
+}

@@ -1,19 +1,20 @@
 body{
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    
 }
 
 #container{
-    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
     width: 500px;
-    border-color: black;
-    background-color: blue;
+    background-color: white;
+    border: solid;
 }
 
 #box{
     display: flex;
     justify-content: center;
-}
-
-.item:hover{
-    background-color: black;
+    
 }

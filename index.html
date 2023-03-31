@@ -3,14 +3,23 @@
 <head>
     <title>Etch-a-Sketch</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    <div id="header"> <h1 style="display: block;"> Etch-a-Sketch</h1></div> 
-    
-        <div id="container">
+    <div class="flex-container">
+        <div class="main-title"><h1>Etch-a-Sketch</h1></div>
+        <div class="content">
+            <div class="container">
 
+            </div>
+            <button>Black</button>
+            <button>Rainbow</button>
+            <button>Clear</button>
         </div>
+        <input type="text" placeholder="Size of Board" value="16">
+    </div>
 
+       
     <script src="script.js"></script>
 </body>
 </html>

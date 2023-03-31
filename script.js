@@ -1,17 +1,14 @@
-let container = document.querySelector("#container");
-let grid = document.createElement("div");
-container.appendChild(grid);
+let container = document.querySelector(".container");
+container.style.gridTemplateColumns = "repeat(16, 1fr)"
 
 
-let itemSize = document.getElementById("#container");
-
-for (let i = 0; i < 396; i ++){
-    let items = document.createElement("div");
-    items.style.cssText = "width: 16px; height: 16px; border: solid;"
-    items.className = "item"
-    items.addEventListener("mouseover", () => {items.style.backgroundColor = "black";}
+for (let i = 0; i < 350; i ++){
+    const div = document.createElement("div");
+    div.style.cssText = 'border: solid;'
+    div.className = "item"
+    div.addEventListener("mouseover", () => {div.style.backgroundColor = "black";}
 
     )
-    container.appendChild(items);
+    container.appendChild(div);
     
 }
